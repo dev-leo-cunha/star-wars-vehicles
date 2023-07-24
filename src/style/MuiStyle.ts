@@ -17,7 +17,7 @@ export const StepSX = () => {
   return {
     "& .MuiSvgIcon-root": { fill: "#FFF" },
     "& .css-117w1su-MuiStepIcon-text": { fill: "rgb(0, 0, 0)", fontSize: "16px" },
-    "& ..css-10psl7k": { fill: "rgb(0, 0, 0)", fontSize: "16px" },
+    "& .css-10psl7k": { fill: "rgb(0, 0, 0)", fontSize: "16px" },
     "@media (max-width:765px)": {
       "& .css-117w1su-MuiStepIcon-text": { fontSize: "12px" },
     },
