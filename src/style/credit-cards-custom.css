@@ -1,0 +1,23 @@
+@media (max-width: 765px) {
+    .rccs__number {
+        font-size: 12px;
+    }
+    .rccs {
+        width: 200px;
+        height: 125px;
+    }
+    .rccs__card {
+        width: 200px;
+        height: 125px;
+    }
+    .rccs__name {
+        font-size: 12px;
+    }
+    .rccs__expiry__valid {
+        font-size: 8px;
+    }
+    .rccs__expiry__value {
+        font-size: 12px;
+    }
+    
+  }
