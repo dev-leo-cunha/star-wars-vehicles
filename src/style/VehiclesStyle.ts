@@ -11,10 +11,19 @@ export const Container = styled.div`
 export const RGBA = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 export const Pagination = styled.div`
   display: flex;
   justify-content: center;
+`;
+export const TitleVehicle = styled.div`
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
 `;
 export const Vehicles = styled.div`
   display: flex;
@@ -25,7 +34,7 @@ export const Vehicles = styled.div`
 export const Loading = styled.div`
   font-size: 24px;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
 `;
 export const VehicleUnit = styled.div`
   border: 1px solid #ccc;

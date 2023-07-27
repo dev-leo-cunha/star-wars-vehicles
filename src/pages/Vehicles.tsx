@@ -38,11 +38,13 @@ export const Vehicles = observer(() => {
                         count={4} color="primary" size="large" variant="outlined" shape="rounded" onChange={(_e, page) => loadVehicles(page)}
                     />
                 </S.Pagination>
+                <S.TitleVehicle>Veiculos disponiveis</S.TitleVehicle>
                 <S.Vehicles>
                     {loading ? (
                         <S.Loading>Carregando...</S.Loading>
-                    ) : (
-                        store?.vehicles.map((vehicles: any, index: number) => {
+                    ) : (<>
+                        
+                        {store?.vehicles.map((vehicles: any, index: number) => {
                             return (
                                 <S.VehicleUnit
                                     key={index}
@@ -71,8 +73,8 @@ export const Vehicles = observer(() => {
                                 </S.VehicleUnit>
 
                             )
-                        })
-                    )}
+                        })}
+                    </>)}
                 </S.Vehicles>
             </S.RGBA>
         </S.Container>
