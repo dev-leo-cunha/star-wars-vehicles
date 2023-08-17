@@ -11,6 +11,7 @@ export const PaginationSX = () => {
       border: "1px solid #fff",
     },
     "& .Mui-disabled": { color: "#fff" },
+    "marginTop": "20px",
   };
 };
 export const StepSX = () => {
